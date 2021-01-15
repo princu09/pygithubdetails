@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github User Details</title>
+    <link rel="shortcut icon" href="static/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <p>Login : {{user_data.login}}</p>
+    <p>Id : {{user_data.id}}</p>
+    <p>Node Id : {{user_data.node_id}}</p>
+    <p>Type : {{user_data.type}}</p>
+    <p>Name : {{user_data.name}}</p>
+    <p>Company : {{user_data.company}}</p>
+    <p>Blog : {{user_data.blog}}</p>
+    <p>Location : {{user_data.location}}</p>
+    <p>Email : {{user_data.email}}</p>
+    <p>Hireable : {{user_data.hireable}}</p>
+    <p>Bio : {{user_data.bio}}</p>
+    <p>Twitter : {{user_data.twitter_username}}</p>
+    <p>Public Repository : {{user_data.public_repos}}</p>
+    <p>Followers : {{user_data.followers}}</p>
+    <p>Following : {{user_data.following}}</p>
+    <p>Created At : {{user_data.created_at[:10]}} | Time : {{user_data.created_at[11:19]}}</p>
+    <p>Updated At : {{user_data.updated_at[:10]}} | Time : {{user_data.created_at[11:19]}}</p>
+
+</body>
+</html>
